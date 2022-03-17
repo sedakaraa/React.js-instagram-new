@@ -36,8 +36,8 @@ function Card(props) {
       </div>
       <div className="timePosted">{hours} HOURS AGO</div>
       <div className="addComment">
-          <div className="commentText">Add a comment...</div>
-          <div className="postText">POST</div>
+        <div className="commentText">Add a comment...</div>
+        <div className="postText">POST</div>
       </div>
     </div>
   );
