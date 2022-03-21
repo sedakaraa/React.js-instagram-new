@@ -2,11 +2,11 @@
 
 .storyBorder {
     padding: 2px;
-    background-color: linear-gradient(
+    background: linear-gradient(
         200deg,
-        $gradient-one 25%
-        $gradient-two 50%
-        $gradient-three 75%
+        $gradient-one 25%,
+        $gradient-two 50%,
+        $gradient-three 75%,
         $gradient-four 100%
     );
     border-radius: 50%;

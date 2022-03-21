@@ -5,7 +5,7 @@ import {ReactComponent as Notifications } from "../images/notifications.svg";
 import {ReactComponent as Bookmark } from "../images/bookmark.svg";
 
 function CardMenu() {
-    return <div className="cardMenu">
+    return ( <div className="cardMenu">
         <div className="interactions">
             <Notifications className="icon" />
             <Comments classNmae="icon" />
@@ -13,6 +13,7 @@ function CardMenu() {
         </div>
         <Bookmark className="icon" />
     </div>
+    );
 }
 
 export default CardMenu;

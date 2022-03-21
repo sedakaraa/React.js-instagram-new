@@ -3,7 +3,7 @@ import HorizontalScroll from "react-scroll-horizontal";
 import Story from "./Story";
 
 function Stories() {
-    return <div className="stories">
+    return ( <div className="stories">
         <HorizontalScroll className="scroll" reverseScroll={true}>
             <Story />
             <Story />
@@ -25,7 +25,8 @@ function Stories() {
             <Story />
             <Story />
             </HorizontalScroll>   
-    </div>;
+    </div>
+    );
 
 }
 

@@ -21,6 +21,11 @@ function Cards() {
       text: "Niceeee! ! ",
       id: 3,
     },
+    {
+      user: "seda",
+      text: "superrr! ! ",
+      id: 4,
+    },
   ];
 
   const commentsTwo = [
@@ -67,6 +72,15 @@ function Cards() {
         image="https://picsum.photos/800/1000"
         comments={commentsOne}
         likedByText="dadatlacak"
+        likedByNumber={47}
+        hours={12}
+      />
+      <Card
+        accountName="seda"
+        storyBorder={true}
+        image="https://picsum.photos/800/1000"
+        comments={commentsOne}
+        likedByText="seda"
         likedByNumber={47}
         hours={12}
       />

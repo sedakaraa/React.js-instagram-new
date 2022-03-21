@@ -9,10 +9,11 @@ function Story() {
         accountName = accountName.substring(0 , 10) + "...";
     }
 
-    return <div className="story">
+    return ( <div className="story">
         <ProfileIcon iconSize="big" storyBorder={true} />
         <span className="accountName" >{accountName}</span>
-    </div>;
+    </div>
+    );
 
 }
 

@@ -2,7 +2,7 @@ import "../styles/footer.scss";
 
 function Footer() {
 
-    return <div className="footer">
+    return ( <div className="footer">
         <ul className="links">
           <li>About</li>
           <li>Help</li>
@@ -16,9 +16,9 @@ function Footer() {
           <li>Hastags</li>
           <li>Language</li>
         </ul>
-        <div className="copyright">@ 2020 INSTAGRAM FROM FACEBOOK</div>
+        <div className="copyflue">@ 2020 INSTAGRAM FROM FACEBOOK</div>
     </div>
-
+    );
 }
 
 export default Footer;

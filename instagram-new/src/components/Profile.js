@@ -17,7 +17,7 @@ function Profile(props) {
     let accountName = username ? username : users[Math.floor(Math.random() * users.length)].username;
 
 
-    return <div className="profile">
+    return ( <div className="profile">
         <ProfileIcon iconSize={iconSize} storyBorder={storyBorder} image={image} />
         
 
@@ -30,6 +30,7 @@ function Profile(props) {
         )}
         <a href="/">{urlText}</a>
     </div>
+    );
 
 }
 
